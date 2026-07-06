@@ -1,0 +1,133 @@
+/* ---------- All */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#b3c5d7;
+  color: #333;
+  line-height: 1.5;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* ---------- Header + Nav List */
+.header{
+  background: #003366;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  position: static;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-list{
+  list-style: none;
+  margin-top: 15;
+}
+
+.nav-item{
+  display:inline-block;
+  margin:0 15px;
+}
+
+.nav-item a{
+  color: #f4f4f4;
+  text-decoration:none;
+}
+
+h1{
+  padding: 10px;
+}
+
+/* ---------- Personal Info */
+.personal-info{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #003366  
+}
+
+label{
+  padding: 10px;
+}
+input {
+  padding: 10px;
+  background-color: #e4f2f9;
+  border: 2px solid #3f658b;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    padding: 10px;
+}
+
+/* ---------- Academic Info */
+.academic-info{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #003366  
+}
+
+label{
+  padding: 10px;
+}
+
+select {
+    background-color: #e4f2f9;
+    padding: 10px;
+    border: 2px solid #3f658b;
+}
+
+/* ---------- Skills Info */
+.skills{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #003366  
+}
+
+input[type="checkbox"] {
+    accent-color: #e4f2f9;
+    border: 2px solid #3f658b;
+    margin-left: 10px;
+}
+
+/* --------- Additional Info */
+.additional-info{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #003366  
+}
+
+textarea {
+    background-color: #e4f2f9;
+    border: 2px solid #3f658b;
+    padding: 10px;
+
+}
+input[type="file"]::file-selector-button{
+  background: #003366;
+  color: #f4f4f4;;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+input[type="submit"],
+input[type="reset"]{
+  background:  #003366;
+  color:#f4f4f4;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 0px;
+}
