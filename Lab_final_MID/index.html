@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AIUB Club Membership Registration</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<!-- 1st name || 2nd name || email || pass || gender || club || category || why -->
+  <body>
+    <div class="container">
+      <h1>AIUB Club Membership Registration</h1>
+
+      <form id="form">
+        <!-- First Name -->
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="Enter your First Name">
+        <small id="firstNameError" class="error"></small>
+
+        <!-- Last Name -->
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" placeholder="Enter your Last Name">
+        <small id="lastNameError" class="error"></small>
+
+        <!-- Email -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="example@gmail.com">
+        <small id="emailError" class="error"></small>
+
+        <!-- Password -->
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <small id="passwordError" class="error"></small>
+
+        <!-- Gender -->
+        <label>Gender</label>
+        <div class="radio-group">
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+        </div>
+        <small id="genderError" class="error"></small>
+
+        <!-- Interested Club -->
+        <label>Interested Club</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="ACC" name="club" value="ACC">
+          <label for="ACC">AIUB Computer Club</label><br>
+
+          <input type="checkbox" id="AAC" name="club" value="AAC">
+          <label for="AAC">AIUB Arts Club</label><br>
+
+          <input type="checkbox" id="ADC" name="club" value="ADC">
+          <label for="ADC">AIUB Drama Club</label><br>
+
+          <input type="checkbox" id="AIC" name="club" value="AIC">
+          <label for="AIC">AIUB IEEE Club</label><br>
+
+          <input type="checkbox" id="APC" name="club" value="APC">
+          <label for="APC">AIUB Programming Club</label><br>
+
+          <input type="checkbox" id="ARC" name="club" value="ARC">
+          <label for="ARC">AIUB Robotics Club</label><br>
+        </div>
+        <small id="clubError" class="error"></small>
+
+        <!-- Category -->
+        <label for="category">Club Category</label>
+          <select id="category">
+            <option value="">--Select Category--</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Cultural">Cultural</option>
+            <option value="IT">IT</option>
+          </select>
+          <small id="categoryError" class="error"></small>
+
+        <!-- Reason -->
+        <label for="reason">Why do you want to join?</label>
+        <textarea id="reason" rows="4" placeholder="Enter your reason"></textarea>
+        <small id="reasonError" class="error"></small>
+        <button type="submit">Register</button>
+
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
