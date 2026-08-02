@@ -49,7 +49,7 @@
         $total = $subtotal - $discountAmount;
         
         echo "================================<br>";
-        echo "<p>UNIVERSITY CAFETERIA</p>";
+        echo "<h2>UNIVERSITY CAFETERIA</h2>";
         echo "================================<br><br>";
 
         echo "Student Name : " . $name . "<br>";
